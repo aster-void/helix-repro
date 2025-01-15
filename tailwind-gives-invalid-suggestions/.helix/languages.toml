@@ -1,0 +1,8 @@
+[language-server]
+tailwindcss-language-server = { command = "tailwindcss-language-server", args = [
+  "--stdio",
+] }
+
+[[language]]
+name = "html"
+language-servers = ["tailwindcss-language-server"]
